@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/cmt_writer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="201801784"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@drawable/radiustv">
+    </TextView>
+
+    <TextView
+        android:id="@+id/cmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="comment"
+        android:textColor="@color/black"
+        android:background="@drawable/radiustv">
+    </TextView>
+
+</LinearLayout>

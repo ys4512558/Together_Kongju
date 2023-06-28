@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Fragment"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/light_gray">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/radiustv"
+            android:entries="@array/categori_list1"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck"></Spinner>
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="검색어"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/radiustv">
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="0dp"
+            android:text="검색"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck"
+            android:background="@drawable/designbtn">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/article_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/light_gray">
+    </ListView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/writeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/designbtn"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="새 글 작성하기">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

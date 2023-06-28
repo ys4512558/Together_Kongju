@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Me_Fragment"
+    android:orientation="vertical"
+    android:background="@color/light_gray">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원 정보"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/radiustv">
+        </TextView>
+
+        <TextView
+            android:id="@+id/stdNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학번 : "
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/radiustv">
+        </TextView>
+
+        <TextView
+            android:id="@+id/nickName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="닉네임 : "
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/radiustv">
+        </TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름 : "
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/radiustv">
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/my_articleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내가 쓴 글"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/designbtn">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:background="@drawable/kongju_img"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
